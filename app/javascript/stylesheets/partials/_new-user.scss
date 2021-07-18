@@ -1,0 +1,42 @@
+.new-user__container {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-user__h2{ 
+    font-size: 5rem;
+}
+
+.new-user__field {
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.field-input {
+    padding: 0.5rem;
+    border-radius: 10px;
+    outline: none;
+    opacity: 0.3;
+    
+}
+
+.new-user__submit {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+
+.forgot__h2-container {
+
+    text-align: center;
+    margin-bottom: 0.5rem;
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}

@@ -1,13 +1,45 @@
 .home__h1-container {
     height: 100%;
-    background-color: aquamarine;
     width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    p {
+        font-size: 1.5rem;
+    }
+
 }
 
 .home__h1 {
-    margin: 0 auto;
+    font-size: 10rem;
+    text-transform: uppercase;
 }
 
 .home__container {
     height: 100vh;
+}
+
+$btn-h: 3rem;
+
+.home__button {
+    width: 11rem;
+    height: $btn-h;
+    text-align: center;
+    line-height: $btn-h;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: background-image .3s ease;
+
+    &:hover {
+        background-image: linear-gradient(to right, darken($color: #a78bfa, $amount: 10), darken($color: #ec4899, $amount: 20), darken($color: #ef4444, $amount: 5));
+
+    }
+
+    a {
+        font-size: 1.5rem;
+    }
 }
